@@ -333,7 +333,7 @@ hmm.setup <- function(data,state=c("enriched","non-enriched"),probe.region=35,fr
 	comp <- numeric(length(state)) + 1
 	names(comp) <- state
 	## cluster data to obtain initial estimates
-	if(is(data,"list")) data <- c(data,recursive=T)
+	if(is(data,"list")) data <- c(data,recursive=TRUE)
 	cl <- .get.init(data,nstate=c(min(data),max(data)))
 	
 	mean.pos <- cl$mean[1]
@@ -406,6 +406,12 @@ getHMM <- function(params,snames){
 
 ## calculate 'shrinkage t' statistic
 shrinkt.st <- function(X,L,h0.mean=0,...){
+	## ensure that there are at least two samples per group
+	tbl <- table(L)
+	if(min(tbl) == 1){
+		stop("Group ", names(tbl)[which.min(tbl)], " contains only one sample. At least two samples are required per group.")
+	}
+	
 	require(st)
 	if(max(L) == 1){	
 		shrink.var <- var.shrink(t(X))
@@ -414,7 +420,7 @@ shrinkt.st <- function(X,L,h0.mean=0,...){
 			MoreArgs=list(h0.mean,length(L),...))
 	} else if(max(L) == 2){
 		t.stat <- shrinkt.stat(t(X),L,...)
-	} else stop(paste("Illegal number of groups! Expected 1 or two, found", max(L)))
+	} else stop(paste("Illegal number of groups! Expected 1 or 2, found", max(L)))
 	
 	t.stat	
 }

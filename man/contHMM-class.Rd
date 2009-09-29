@@ -1,7 +1,7 @@
 \name{contHMM-class}
 \docType{class}
 \alias{contHMM-class}
-\alias{initialize, contHMM}
+\alias{initialize,contHMM}
 %\alias{.baumWelchEmission,contHMM,contDist,list-method}
 %\alias{.baumWelchEmission,contHMM,tDist,list-method}
 %\alias{.baumWelchStep,contHMM,list-method}
@@ -36,7 +36,7 @@ Class \code{"\linkS4class{hmm}"}, directly.
 
 \seealso{
 	\code{\linkS4class{contDist}}, \code{\linkS4class{tDist}},\code{\linkS4class{hmm}}, 
-	\code{\link[initialize,contHMM-method]{initialize}}, \code{\link{sampleSeq}}, 
+	\code{\link[=initialize,contHMM-method]{initialize}}, \code{\link{sampleSeq}}, 
 	\code{\link{baumWelch}}, \code{\link{viterbiTraining}},	\code{\link{viterbi}}, 
 	\code{\link{forward}}, \code{\link{backward}}, \code{\link{states}}
 }

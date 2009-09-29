@@ -7,7 +7,7 @@
 Returns a vector of state names for given HMM.
 }
 \usage{
-\S4method{states}{hmm}(hmm, ...)
+\S4method{states}{hmm}(hmm)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{

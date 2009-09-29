@@ -9,8 +9,8 @@
   Draws a sample of given size from a discrete or continuous probability distribution.
 }
 \usage{
-\S4method{sampleObs}{discDist,numeric}(dist, size, ...)
-\S4method{sampleObs}{tDist,numeric}(dist, size, ...)
+\S4method{sampleObs}{discDist,numeric}(dist, size)
+\S4method{sampleObs}{tDist,numeric}(dist, size)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
