@@ -176,6 +176,28 @@ plot.contHMM <- function(x, ...){
 	}
 }
 
+## printing summary of conHMM objects
+setMethod("show", "hmm",
+	function(object){
+		cat("An object of class \"", class(object), "\"\n", sep='')
+		cat("with states:", names(object@emission), "\n")
+		cat("\nInitial state distribution:\n")
+		show(object@init)	
+		cat("\nTransition matrix:\n")
+		show(object@transition.matrix)
+		cat("\nEmission distributions:\n")
+		mapply(
+			function(name, x) {
+				cat("\"", name, "\":\n", sep='')
+				show(x)
+			},
+			names(object@emission), object@emission
+		)
+		invisible(NULL)
+	}
+)
+
+
 ## Sample from continuous observation HMM
 setMethod("sampleSeq",c("contHMM","numeric"),
 		function(hmm,size,return.states=FALSE){

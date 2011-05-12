@@ -1,7 +1,7 @@
 useDynLib(tileHMM, "_log_sum", "_forward", "_backward", "_baumWelch_trans", "_viterbi", "_get_obs_prob")
 exportPattern("^[^\\.]")
 exportClasses(dist,discDist,contDist,tDist,hmm,contHMM)
-exportMethods(sampleObs,length,initialize,states,viterbi,forward,backward,baumWelch,viterbiTraining,sampleSeq)
+exportMethods(sampleObs,length,initialize,states,viterbi,forward,backward,baumWelch,viterbiTraining,sampleSeq,show)
 S3method(plot, contDist)
 S3method(plot, contHMM)
 S3method(plot, tDist)

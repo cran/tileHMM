@@ -1,6 +1,7 @@
 \name{hmm-class}
 \docType{class}
 \alias{hmm-class}
+\alias{show,hmm-method}
 
 \title{Class "hmm"}
 \description{Virtual base class for HMMs.}
@@ -23,6 +24,7 @@ Do not create objects of this class directly.  Instead use objects of derived cl
     \item{backward}{\code{signature(hmm = "hmm")}: Computing of backward variables.}
     \item{forward}{\code{signature(hmm = "hmm")}: Computing of forward variables.}
     \item{states}{\code{signature(hmm = "hmm")}: Returns state names.}
+    \item{show}{\code{signature(object = "hmm")}: Print summary of hmm object.}
 	 }
 }
 \author{ Peter Humburg }

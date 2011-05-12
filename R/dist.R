@@ -199,7 +199,7 @@ setMethod("initialize","tDist",
 
 
 #######################################################
-## Plotting contDist objects                         ##
+## Plotting and printing contDist objects            ##
 #######################################################
 plot.contDist <- function(x, step.size=0.01, new.plot=TRUE, weight=1, ...){
 	xrange <- list(...)$xlim
@@ -229,6 +229,15 @@ plot.contDist <- function(x, step.size=0.01, new.plot=TRUE, weight=1, ...){
 }
 
 plot.tDist <- plot.contDist
+
+setMethod("show", "contDist",
+	function(object){
+		cat("An object of class \"", class(object), "\"\n", sep='')
+		print(object@components)
+	}
+)
+
+
 
 #########################################################
 ## Sample from contDist objects                        ##

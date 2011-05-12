@@ -1,6 +1,7 @@
 \name{contDist-class}
 \docType{class}
 \alias{contDist-class}
+\alias{show,contDist-method}
 %\alias{.baumWelchEmission,contHMM,contDist,list-method}
 
 \title{Class "contDist"}
@@ -20,7 +21,9 @@ elementary distributions.
 Class \code{"\linkS4class{dist}"}, directly.
 }
 \section{Methods}{
-No methods defined with class "dist" in the signature.
+\describe{
+\item{show}{\code{signature(object = "contDist")}: Print summary of contDist object.}
+}
 }
 
 \author{Peter Humburg}

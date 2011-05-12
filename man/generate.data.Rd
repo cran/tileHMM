@@ -34,9 +34,7 @@ generate.data(data, group, pos.range = c(1, 10),
 
 \author{Peter Humburg}
 
-\examples{
 
-}
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
 \keyword{utilities}
