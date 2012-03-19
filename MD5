@@ -1,12 +1,14 @@
-a6ef7757ad33b2b90c56e5a0719cf26e *DESCRIPTION
+a8f51c7bbba0b6be2fb792bcfa540673 *DESCRIPTION
 19facde95367a1609a7df5a8a96eb6ee *NAMESPACE
 97d53ae03244dfe50929724367c5e757 *R/dist.R
 ba00d3d71912d69b5d5a123be9bec0b2 *R/hmm.R
 bc7878457559b4ab6dfbaffb3f677301 *R/utils.R
+40e5b9418ceaf367473ddc710d9d7cde *build/vignette.rds
 2d65d12712c209b0a1e196c9e5ca79d1 *data/datalist
 4d64d0495f83ff68438500f30787395f *data/simChIP.rda
 56a827ec034119f60ec9ffe7a3108d85 *inst/CITATION
 a02dd767410d8bfc6a87f51e5f438b0a *inst/COPYING
+466ad19f0374ff44076e9e4019f18c3a *inst/doc/tileHMM.R
 9f47de41c4d0faad09879f6ea11c64ae *inst/doc/tileHMM.Rnw
 58bcc31774aa9a5766bc35ec5e0a0863 *inst/doc/tileHMM.pdf
 a0c0b1a869fbcd06320ceef1468dd5af *man/baumWelch.Rd
@@ -44,3 +46,4 @@ f0a27b4558a558cd14360724ba9cc096 *man/viterbi.Rd
 13129146022fc9138d6932249064e48c *man/viterbiTraining.Rd
 1ea5a16619a080c7a1d864bc1e0185ef *src/tilehmm_lib.c
 bb51310978192c3301b7f8372a526d4b *src/tilehmm_lib.h
+9f47de41c4d0faad09879f6ea11c64ae *vignettes/tileHMM.Rnw

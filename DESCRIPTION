@@ -1,7 +1,7 @@
 Package: tileHMM
 Type: Package
 Title: Hidden Markov Models for ChIP-on-Chip Analysis
-Version: 1.0-5
+Version: 1.0-6
 Date: 2012-03-19
 Author: Peter Humburg
 Maintainer: Peter Humburg <Peter.Humburg@well.ox.ac.uk>
@@ -13,6 +13,7 @@ Description: This package provides methods and classes to build HMMs
 Depends: R (>= 2.14.2), methods
 Suggests: st, preprocessCore
 License: GPL (>= 2)
-Packaged: 2012-03-19 11:24:30 UTC; humburg
+Packaged: 2013-12-12 17:03:20 UTC; humburg
+NeedsCompilation: yes
 Repository: CRAN
-Date/Publication: 2012-03-19 11:51:19
+Date/Publication: 2013-12-12 18:54:16
