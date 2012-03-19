@@ -15,9 +15,9 @@ the Baum-Welch algorithm but is conciderably faster.
 \tabular{ll}{
 Package: \tab tileHMM\cr
 Type: \tab Package\cr
-Version: \tab 1.0-3\cr
-Date: \tab 2009-09-29\cr
-License: \tab GPL\cr
+Version: \tab 1.0-5\cr
+Date: \tab 2012-03-19\cr
+License: \tab GPL (>= 2)\cr
 }
 Hidden Markov models are represented as objects of class \code{\linkS4class{hmm}} or derived classes. Function
 \code{\link{getHMM}} provides an easy to use interface to create \code{\linkS4class{contHMM}} objects with emission
@@ -31,7 +31,7 @@ a convenient way to use a combination of both methods.
 \author{
 Peter Humburg
 
-Maintainer: Peter Humburg \email{Peter.Humburg@csiro.au}
+Maintainer: Peter Humburg \email{Peter.Humburg@well.ox.ac.uk}
 }
 \references{
 Humburg, P. and Bulger, D. and Stone, G.

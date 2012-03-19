@@ -1,13 +1,14 @@
-ee311b1e523c2cfa2a00bfd41e32f662 *DESCRIPTION
+a6ef7757ad33b2b90c56e5a0719cf26e *DESCRIPTION
 19facde95367a1609a7df5a8a96eb6ee *NAMESPACE
 97d53ae03244dfe50929724367c5e757 *R/dist.R
 ba00d3d71912d69b5d5a123be9bec0b2 *R/hmm.R
 bc7878457559b4ab6dfbaffb3f677301 *R/utils.R
-5767a05a4d92dfc78ac4e52dd36c351d *data/simChIP.rda
+2d65d12712c209b0a1e196c9e5ca79d1 *data/datalist
+4d64d0495f83ff68438500f30787395f *data/simChIP.rda
 56a827ec034119f60ec9ffe7a3108d85 *inst/CITATION
 a02dd767410d8bfc6a87f51e5f438b0a *inst/COPYING
 9f47de41c4d0faad09879f6ea11c64ae *inst/doc/tileHMM.Rnw
-5d6b7e5666454b4d733548835fb9eba0 *inst/doc/tileHMM.pdf
+58bcc31774aa9a5766bc35ec5e0a0863 *inst/doc/tileHMM.pdf
 a0c0b1a869fbcd06320ceef1468dd5af *man/baumWelch.Rd
 9c3b454eb9e31c1cdde040dfc9ff005b *man/contDist-class.Rd
 d9f82bf695202995a615a1a533120c39 *man/contHMM-access.Rd
@@ -37,7 +38,7 @@ eb0939c9c2ac1fb176c952ffe847cf75 *man/sampleObs.Rd
 fecfd935d4d9c4dbc3ffc86246514e91 *man/simChIP.Rd
 82c085579f93af91757ac231b6ad0e92 *man/states.Rd
 46fbb784a1f04860e3a26879d1683445 *man/tDist-class.Rd
-7ab21266622c9ce2ee2b1a579c639029 *man/tileHMM-package.Rd
+245db6d86fa38ed8e84607e18ae399cd *man/tileHMM-package.Rd
 f0a27b4558a558cd14360724ba9cc096 *man/viterbi.Rd
 27beebf337401a90181e41896f76b47b *man/viterbiEM.Rd
 13129146022fc9138d6932249064e48c *man/viterbiTraining.Rd
