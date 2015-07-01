@@ -1,5 +1,5 @@
 ### R code from vignette source 'tileHMM.Rnw'
-### Encoding: UTF-8
+### Encoding: ISO8859-1
 
 ###################################################
 ### code chunk number 1: tileHMM.Rnw:38-41
